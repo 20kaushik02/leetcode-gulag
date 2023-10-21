@@ -1,6 +1,7 @@
 #include "soln.hpp"
 
-int main()	{
+int main()
+{
 	string s = "({[[[]]]})";
 	bool answer = true;
 	Solution soln;

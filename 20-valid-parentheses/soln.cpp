@@ -37,6 +37,7 @@ bool Solution::isValid(string s)
 	return bstack.size() == 0;
 }
 
-bool Solution::test(string s, bool answer)	{
+bool Solution::test(string s, bool answer)
+{
 	return isValid(s) == answer;
 }
