@@ -17,7 +17,6 @@ public:
 			cout << endl;
 		}
 	}
-
-	
-	bool test(, bool answer);
+	bool canArrange(vector<int> &arr, int k);
+	bool test(vector<int> &arr, int k, bool answer);
 };
